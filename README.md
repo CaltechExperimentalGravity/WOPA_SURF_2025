@@ -10,6 +10,8 @@ Logs of any progress made in the lab can be found in the [QIL Elog](https://nodu
 - Basics of [Frequency Domain](https://en.wikipedia.org/wiki/Frequency_domain) and [Power Spectral Density](https://en.wikipedia.org/wiki/Spectral_density)
 - For an introduction on what squeezing is, the paper [Squeezed States of Light](https://github.com/user-attachments/files/19538666/Basic_Squeezing.pdf) by by Teich and Saleh is a great introduction.
 - For a genral overview of nonlinear optics, material properties of PPLN waveguides, periodic poling, and configurations using nonlinear optics, the [PPLN Guide Overview](https://www.hcphotonics.com/ppln-guide-overview) from HCP Photonics will be very useful.
+- For more general LIGO related things, highly recommend reading [Interferometer Techniques for Gravitational-Wave Detection](https://github.com/user-attachments/files/19712074/Finesse_Physics.pdf)
+
 
 ## Useful Modeling Software
 - Using Conda: Prior to any modeling software installation, it is useful for one to install [Conda](https://docs.conda.io/projects/conda/en/latest/user-guide/install/index.html) (either Miniconda or Miniforge works). It allows users to install environments within their computer's command line, and install software packages such as FINESSE. 
