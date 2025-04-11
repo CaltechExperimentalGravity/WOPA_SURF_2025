@@ -7,6 +7,7 @@ Logs of any progress made in the lab can be found in the [QIL Elog](https://nodu
 
 ## Getting Started
 - Basic information on squeezed light within the LIGO detectors can be found here: [LIGO Squeezing](https://www.ligo.caltech.edu/news/ligo20231023)
+- Basics of [Frequency Domain](https://en.wikipedia.org/wiki/Frequency_domain) and [Power Spectral Density](https://en.wikipedia.org/wiki/Spectral_density)
 - For an introduction on what squeezing is, the paper [Squeezed States of Light](https://github.com/user-attachments/files/19538666/Basic_Squeezing.pdf) by by Teich and Saleh is a great introduction.
 - For a genral overview of nonlinear optics, material properties of PPLN waveguides, periodic poling, and configurations using nonlinear optics, the [PPLN Guide Overview](https://www.hcphotonics.com/ppln-guide-overview) from HCP Photonics will be very useful.
 
