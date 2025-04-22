@@ -19,7 +19,7 @@ Logs of any progress made in the lab can be found in the [QIL Elog](https://nodu
 - [LUMERICAL](https://www.lumerical.com/) is a commercial software useful for high-precison modeling. Could be very useful for us in modeling realistic affects of the waveguide such as thermal lensing.
 
 ## For writing reports / drafts
-![Reports Compilation](https://github.com/CaltechExperimentalGravity/SURFtemplate/actions/workflows/compile.yml/badge.svg)
+![Reports Compilation](https://github.com/CaltechExperimentalGravity/WOPA_SURF_2025/actions/workflows/compile.yml/badge.svg)
 
 Template git repo for SURF projects
 

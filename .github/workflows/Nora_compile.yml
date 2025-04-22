@@ -4,7 +4,7 @@ on:
     branches:
       - main
     paths:
-      - '.github/workflows/compile.yml' # Ensures changes to this file also trigger this workflow.
+      - '.github/workflows/Nora_compile.yml' # Ensures changes to this file also trigger this workflow.
       - 'reports/*' # Only file changes in reports directory triggers this workflow.
 jobs:
   Compile:
@@ -16,7 +16,7 @@ jobs:
         # Using https://github.com/xu-cheng/latex-action
         uses: xu-cheng/latex-action@v2
         with:
-          root_file: ./reports/SURF_Proposal.tex
+          root_file: ./reports/Nora_SURF_Proposal.tex
           work_in_root_file_dir: True
         # Change filename above if different.
         # Use following to compile multiple latex files
@@ -27,7 +27,7 @@ jobs:
       - name: Create published directory
         run: |
           mkdir ./public
-          cp ./reports/SURF_Proposal.pdf ./public/
+          cp ./reports/Nora_Template.pdf ./public/
         # Add more files above to publish them if required.
       - name: Upload latest compiled output to gh-pages branch
         uses: peaceiris/actions-gh-pages@v3
