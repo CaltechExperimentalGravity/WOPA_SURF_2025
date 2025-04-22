@@ -24,7 +24,7 @@ Logs of any progress made in the lab can be found in the [QIL Elog](https://nodu
 Template git repo for SURF projects
 
 ## Latest automatic compiled reports (change directory link to your repo):
-[SURF_Proposal.pdf](https://github.com/CaltechExperimentalGravity/SURFtemplate/blob/gh-pages/SURF_Proposal.pdf)
+[SURF_Proposal.pdf](https://github.com/CaltechExperimentalGravity/WOPA_SURF_2025/blob/gh-pages/SURF_Proposal.pdf)
 
 The automatic compilation is setup using [GitHub actions](https://docs.github.com/en/actions). When you add more tex files for your interim and final reports, do following:
 * Go to .github/.workflows/compile.yml
