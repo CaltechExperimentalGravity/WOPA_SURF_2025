@@ -24,7 +24,7 @@ Logs of any progress made in the lab can be found in the [QIL Elog](https://nodu
 Template git repo for SURF projects
 
 ## Latest automatic compiled reports
-[Nora_Proposal.pdf](https://github.com/CaltechExperimentalGravity/WOPA_SURF_2025/blob/gh-pages/SURF_Proposal.pdf)
+[Nora_Proposal.pdf](https://github.com/CaltechExperimentalGravity/WOPA_SURF_2025/blob/gh-pages/Nora_SURF_Proposal.pdf)
 
 [Tanisha_Proposal.pdf](https://github.com/CaltechExperimentalGravity/WOPA_SURF_2025/blob/gh-pages/Tanisha_SURF_Proposal.pdf)
 
