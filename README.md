@@ -43,3 +43,6 @@ Healthy repo habits: (see "Sample LaTeX Document for Reports" and "GIT, git.ligo
 * Avoid spaces in directory and file names. Use camelCase or snake_case, as per preference.
 * Do not upload any files to the Github webpage. Your repo should be cloned locally on your machine, and you should pull and push local changes through git over command line. See git tutorial in SURF101 page for detailed instructions.
 * Download LaTeX onto your machine for editing your tex files locally. Commit and push changes to the repo for tex files as you would for any scripts. We know Overleaf is convenient, but it becomes more complicated to interface with git for version control. LaTeX download links can be found on the [SURF101 page](https://nodus.ligo.caltech.edu:30889/wiki/doku.php?id=gw_detection_101_for_surf).
+
+## Waveguide Manual
+[waveguide_manual.pdf](https://github.com/user-attachments/files/19907136/waveguide_manual.pdf)
