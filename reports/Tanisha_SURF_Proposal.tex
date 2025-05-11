@@ -31,9 +31,10 @@ This project directly contributes to this effort by developing a detailed noise 
 The main goals of this project are:
 
 \begin{itemize}
-    \item To calculate and quantify the noise budget, particularly focusing on frequency noise and phase noise contributions, for the WOPA setup described.
+    \item To calculate and quantify the noise budget, particularly focusing on frequency noise and phase noise contributions, for the WOPA setup described.  Additionally, to address and quantify other sources of noise such as polarisation mismatch, gain imbalance at the balanced homodyne detector (BHD), mode-matching errors between the local oscillator (LO) and signal fields, and residual intensity noise.
     \item To establish tolerances for phase stability that ensure more than \SI{6}{\decibel} of observed squeezing.
-    \item To provide practical recommendations to mitigate these noise sources for successful integration of the squeezed source into an interferometric gravitational wave detector like LIGO.
+    %\item To provide practical recommendations to mitigate these noise sources for successful integration of the squeezed source into an interferometric gravitational wave detector like LIGO.
+    \item To determine the necessary length scale for suppressing laser frequency noise, such that the difference in path lengths between the interferometric arms in LIGO is less than 10 cm, given the current frequency variation of 70 MHz. This will involve quantifying how frequency noise translates into path length variations and setting requirements for laser stabilization to meet stringent interferometric precision.
 \end{itemize}
 
 
@@ -50,23 +51,41 @@ The project will be conducted in the following manner:
     \item Propose methods to control phase noise, such as active feedback stabilization and passive noise reduction.
 \end{itemize}
 
-\section{Timeline}
+%\section{Timeline}
+% Describe timeline of your plan, explaining what you would do every 2 weeks.
+%\begin{longtable}{|c|p{11cm}|}
+%\hline
+%\textbf{Timeframe} & \textbf{Milestone/Task} \\
+%\hline
+%Week 1--2 & Familiarisation with WOPA setup. Extract parameters from the experimental design, model the squeezed and anti-squeezed quadrature variances. \\
+%\hline
+%Week 3--4 & Derive noise coupling transfer functions for frequency and phase noise. Simulate squeezing degradation due to phase noise. Calculate allowable RMS phase noise for $>\SI{6}{\decibel}$ squeezing.  \\
+%\hline
+%Week 5--6 &  Simulate the impact of laser frequency noise and determine necessary stabilisation specifications. Compare experimental noise measurements to the theoretical noise budget and make improvmrnts.\\
+%\hline
+%Week 7--8 &  Finalise the noise budget document. Suggest design optimisations for phase/frequency noise suppression.\\
+%\hline
+%Week 9--10 &  Prepare final presentation/report and discuss implications for integration into a LIGO-like interferometer.   \\
+%\hline
+ \section{Timeline}
 % Describe timeline of your plan, explaining what you would do every 2 weeks.
 \begin{longtable}{|c|p{11cm}|}
 \hline
 \textbf{Timeframe} & \textbf{Milestone/Task} \\
 \hline
-Week 1--2 & Familiarisation with WOPA setup. Extract parameters from the experimental design, model the squeezed and anti-squeezed quadrature variances. \\
+Week 1--2 & Familiarisation with the WOPA experimental setup. Extract relevant optical and electronic parameters from the design. Model the variances of the squeezed and anti-squeezed quadratures using quantum optics formalism. Characterize the laser frequency noise spectrum using a frequency discriminator and spectrum analyzer. Identify dominant noise contributions from the laser cavity, current source, and external optics. Implement initial modifications—such as optical isolation, improved mode matching, and thermal stabilization—to mitigate frequency noise coupling into the squeezed quadrature. \\
 \hline
-Week 3--4 & Derive noise coupling transfer functions for frequency and phase noise. Simulate squeezing degradation due to phase noise. Calculate allowable RMS phase noise for $>\SI{6}{\decibel}$ squeezing.  \\
+Week 3--4 & Derive and simulate the noise coupling transfer functions that quantify how frequency and phase noise couple into the measured squeezing spectrum. Use these models to simulate squeezing degradation due to phase noise. Calculate tolerable RMS phase noise levels to ensure observable squeezing exceeds \SI{6}{\decibel}. Initiate measurements of nonlinear gain in the PPLN waveguide by varying pump power and temperature conditions. \\
 \hline
-Week 5--6 &  Simulate the impact of laser frequency noise and determine necessary stabilisation specifications. Compare experimental noise measurements to the theoretical noise budget and make improvmrnts.\\
+Week 5--6 & Continue nonlinear gain characterization and begin the first iteration of squeezed light detection using a balanced homodyne detector (BHD). Assess optical visibility and interference contrast between the local oscillator (LO) and squeezed signal field. Simulate and quantify the impact of laser frequency noise on the squeezing spectrum. Compare theoretical predictions with initial experimental measurements and identify stabilization requirements. \\
 \hline
-Week 7--8 &  Finalise the noise budget document. Suggest design optimisations for phase/frequency noise suppression.\\
+Week 7--8 & Implement a coherent phase-locking system between the LO and signal beam using an electro-optic phase modulation scheme with active feedback. Characterize the phase lock's stability and residual noise. Finalize the noise budget by quantifying all significant degradation sources, including polarization mismatch, gain imbalance in the BHD, mode-matching inefficiencies, and residual intensity noise. Suggest system-level improvements. \\
 \hline
-Week 9--10 &  Prepare final presentation/report and discuss implications for integration into a LIGO-like interferometer.   \\
+Week 9--10 & Optimize all experimental parameters to maximize the observed squeezing level. Evaluate squeezing in dB via spectral noise measurements and compare to theoretical predictions. Quantify the final level of quantum noise suppression achieved. Complete documentation and prepare final presentation/report, emphasizing readiness for integration with LIGO-like interferometric detectors. \\
 \hline
 \end{longtable}
+
+%\end{longtable}
 
 
 \begin{thebibliography}{9}
