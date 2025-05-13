@@ -14,27 +14,31 @@ citecolor=red,urlcolor=magenta]{ligodoc}
 
 \ligodccnumber{T}{22}{xxxxx}{}{}
 \title{}
-\author{}
+\author{Nora Dreslin}
 \begin{document}
 
 \tableofcontents
 
 \newpage
 \section{Introduction}
-Introduce LIGO and bring in how your project contributes to LIGO research.
+LIGO (Laser Interferometer Gravitational-Wave Observatory) detects gravitational waves from astronomical phenomena such as black holes and binary neutron star collisions by using interferometry to measure the movement of test masses as a result of a gravitational wave. LIGO consists of two L-shaped interferometers located ~3000 km apart whose arms are orthogonal 4 km Michelson interferometers. A 1064nm wavelength laser is split at a beamsplitter and sent down the two arms. When a gravitational wave passes, it will stretch one of the arms while compressing another, resulting in a phase difference of the beams in each arm. When the beams recombine at the beamsplitter the phase shift of the beam can be detected at a photodetector. Two interferometers are used to rule out local noise that could have caused the phase shift. The level of sensitivity required to detect gravitational waves also makes LIGO's measurements susceptible to noise. To optimize the accuracy and sensitivity of LIGO, we aim to limit noise from as many sources as possible. One way noise is minimized in the laser is through quantum squeezing. 
 
+Quantum squeezing is a method in which we can minimize the uncertainty of a quadrature of light, in this case amplitude or phase. By the Heisenberg uncertainty principle, the product of the uncertainties in amplitude and phase must be at least $\frac{1}{4}$. So we can squeeze the uncertainty in phase at the expense of the uncertainty in amplitude and vice versa. Currently, both amplitude and phase squeezing is being used to reduce noise in LIGO, depending on the frequency of the gravitational waves. This squeezing is accomplished by sending 532nm wavelength light through a periodically poled lithium niobate crystal waveguide which generates 1064 nm wavelength squeezed light that we can then combine with the 1064 nm wavelength light in LIGO to squeeze that light being detected. 
+
+Within the squeezing process itself there are sources of noise. One of which is a result of mode mismatch between the squeezed beam coming from the crystal and the non-squeezed beam. If the modes of the beams do not match when they are combined, then there will be destructive interference between them and we will not be able to measure the full extent of squeezing (matching to Gaussian). This project aims to measure and minimize noise as a result of mode mismatch between squeezed and non-squeezed beams to optimize the accuracy and sensitivity of LIGO detections.
 \section{Objective}
-Set goals for yourself here.
+We hope to mode match our local oscillator (LO) beam and signal beam to achieve 95\%+ squeezing and generate 6dB+ of squeezed light.
 
 \section{Approach}
-Describe a working plan. Cite an article like \cite{PDH}.
-
+Using a periodically poled lithium niobate crystal (PPLN) we will generate 1064nm wavelength squeezed light from 532nm wavelength light. This signal beam will be mixed with our LO and squeeze it. The measured squeezing of the beam is given by
+$$dB_{measured} = 10\log((1-\eta) + (\eta)10^{(dB/10)})$$
+where $\eta$ is the total detection efficiency, which is determined by the mode matching efficiency, propagation efficency, and visibility of the beam. To maximize the measured dB of squeezing, we will focus on first optimizing the mode matching between the signal and LO. 
 \section{Timeline}
-Describe timeline of your plan, explaining what you would do every 2 weeks.
+During orientation the first week of the program (6/18-6/25), we hope to measure the laser polarization drift, a possible source of noise in the system. Ideally, we will also model the mode of the beam coming into and out of the crystal. During weeks two and three (6/25-7/9), we will be taking nonlinear gain measurements of the laser. Weeks four and five (7/9-7/23) we will measure the squeezing of light. Weeks six and seven (7/23-8/6) will be spend mode matching our beams and reorienting the setup. The last two weeks of the program (8/6-8/20) will be spent coherent phase locking the system to optimize the squeezing measurement.
 
 \begin{thebibliography}{9}
-\bibitem{PDH} Authors. \emph{Paper Title}. Journal Abbreviation, Vol, Page numbers (YYYY).
-\bibitem{controls} Authors. \emph{Website Title}. \url{link}.
+\bibitem{LIGO} Barry C. Barish and Rainer Weiss. \emph{LIGO and the Detection of Gravitational Waves}. Physics Today, 52, p. 44-50 (1999).
+\bibitem{fiber sqz} F. Kaiser et. al. \emph{A Fully Guided-Wave Squeezing Experiment for Fiber Quantum Networks}. Optica, Vol. 3, p. 362 (2016).
 
 \end{thebibliography}
 \end{document}
