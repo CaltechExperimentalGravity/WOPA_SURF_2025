@@ -1,0 +1,32 @@
+\documentclass[colorlinks=true,pdfstartview=FitV,linkcolor=blue,
+citecolor=red,urlcolor=magenta]{ligodoc}
+
+\usepackage{siunitx}
+\usepackage{graphicx}
+\usepackage{amssymb}
+\usepackage{amsmath}
+\usepackage{longtable}
+\usepackage{rotating}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{fancyhdr}
+\usepackage{subfigure}
+\usepackage{hyperref}
+\usepackage{float}
+\ligodccnumber{T}{22}{xxxxx}{}{}
+\title{\large{ Noise Characterisation and Suppression in a Waveguided Optical Parametric Amplification (WOPA) -Based Quantum Squeezing Experiment}}
+\author{Tanisha Ray}
+\begin{document}
+
+\tableofcontents
+
+\newpage
+\section{Abstract}
+
+
+Gravitational wave detectors such as Advanced LIGO rely on exquisite sensitivity to detect minuscule spacetime perturbations, making them susceptible to a variety of noise sources. Among the most fundamental is quantum noise, which arises from vacuum fluctuations entering the interferometer’s antisymmetric port. To mitigate this limitation, squeezed vacuum states—quantum states with reduced uncertainty in one quadrature—are injected to suppress shot noise. Currently, squeezing at LIGO is achieved via optical parametric oscillators (OPOs) using resonant cavities. This project explores \textit{Waveguided Optical Parametric Amplification} (WOPA) as a cavity-free alternative that offers architectural simplicity and potential robustness against alignment instabilities. WOPA utilizes a single-pass configuration through a periodically poled lithium niobate (PPLN) waveguide, pumped with \SI{532}{\nano\meter} light, to generate broadband squeezed vacuum states.
+
+This work aims to develop a detailed noise budget for the WOPA-based squeezing source. The analysis will include contributions from laser frequency and intensity noise, phase noise, polarization mismatch, propagation and coupling losses within the waveguide, imperfect mode matching, and gain imbalance at the balanced homodyne detector (BHD). The Mach–Zehnder-like configuration of the BHD—with separate optical paths for the signal and local oscillator—will be mathematically modeled to identify and mitigate differential path noise. A key component of this project is the implementation of quantum noise locking techniques to stabilize the squeezing angle against fluctuations, thereby preserving squeezing in the desired quadrature.
+
+Quantitative comparisons with LIGO’s current OPO-based squeezing infrastructure (achieving $\sim$4~dB noise suppression) will be conducted to evaluate the performance and feasibility of WOPA for deployment in gravitational wave observatories. Additionally, the potential for extending WOPA-generated squeezing to applications in quantum-enhanced metrology, quantum neural networks, continuous-variable quantum computing, and coherent feedback control will be explored in future.
+
+\end{document}
