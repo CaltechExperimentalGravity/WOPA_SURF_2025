@@ -29,6 +29,7 @@ Template git repo for SURF projects
 [Nora_Proposal.pdf](https://github.com/CaltechExperimentalGravity/WOPA_SURF_2025/blob/gh-pages/Nora_SURF_Proposal.pdf)
 
 [Tanisha_Proposal.pdf](https://github.com/CaltechExperimentalGravity/WOPA_SURF_2025/blob/gh-pages/Tanisha_SURF_Proposal.pdf)
+[Tanisha_Report.pdf](https://github.com/CaltechExperimentalGravity/WOPA_SURF_2025/blob/gh-pages/Tanisha_SURF_Report.pdf)
 
 The automatic compilation is setup using [GitHub actions](https://docs.github.com/en/actions). When you add more tex files for your interim and final reports, do following:
 * Go to .github/.workflows/compile.yml
