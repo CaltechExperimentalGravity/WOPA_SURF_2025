@@ -34,6 +34,9 @@ jobs:
         #   root_file: |
         #     file1.tex
         #     file2.tex
+      - name: List compiled PDFs
+        run: ls -l ./reports/
+  
       - name: Create published directory
         run: |
           mkdir ./public
