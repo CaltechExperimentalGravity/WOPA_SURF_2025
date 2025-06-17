@@ -26,7 +26,7 @@ jobs:
           root_file: |
             ./reports/Nora_SURF_Proposal.tex
             ./reports/Tanisha_SURF_Proposal.tex
-            ./reports/Tanisha_SURF_Report.tex 
+            ./reports/Tanisha_SURF_Report.tex
           work_in_root_file_dir: True
         # Change filename above if different.
         # Use following to compile multiple latex files
